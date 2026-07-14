@@ -2,86 +2,163 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-
-    <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0"
-    >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta
         name="description"
-        content="Portfolio of Bilel Selmi, iOS Engineer and AI Engineering enthusiast."
+        content="Portfolio of Bilel Selmi, Senior iOS Engineer and AI Engineer."
     >
 
-    <title>Bilel Selmi | Portfolio</title>
+    <title>Bilel Selmi | Senior iOS Engineer & AI Engineer</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- Navigation -->
-    <header class="header">
-        <nav class="navbar container">
+    <header class="site-header">
+        <div class="container header-content">
 
-            <a href="#home" class="logo">Bilel Selmi</a>
+            <a href="#home" class="brand" aria-label="Go to home">
+                Bilel Selmi
+            </a>
 
-            <ul class="nav-links">
-                <li>
-                    <a href="#home">Home</a>
-                </li>
+            <nav class="main-navigation" aria-label="Main navigation">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
 
-                <li>
-                    <a href="#about">About</a>
-                </li>
-
-                <li>
-                    <a href="#skills">Skills</a>
-                </li>
-
-                <li>
-                    <a href="#projects">Projects</a>
-                </li>
-
-                <li>
-                    <a href="#contact">Contact</a>
-                </li>
-            </ul>
-
-        </nav>
+        </div>
     </header>
 
 
     <main>
 
-        <!-- Hero Section -->
-        <section id="home" class="hero">
+        <section id="home" class="hero-section">
 
-            <div class="container hero-content">
+            <div class="container hero-layout">
 
-                <p class="hero-label">
-                    Senior iOS Engineer & AI Engineering Enthusiast
-                </p>
+                <div class="hero-content">
 
-                <h1>
-                    Hi, I’m <span>Bilel Selmi</span>
-                </h1>
+                    <p class="eyebrow">
+                        Senior iOS Engineer · AI Engineer
+                    </p>
 
-                <p class="hero-description">
-                    I build modern mobile applications and intelligent
-                    software solutions using Swift, SwiftUI, Python,
-                    FastAPI and AI technologies.
-                </p>
+                    <h1>
+                        Building thoughtful mobile products and
+                        <span>AI-powered experiences.</span>
+                    </h1>
 
-                <div class="hero-buttons">
+                    <p class="hero-description">
+                        I am Bilel Selmi, a Senior iOS Engineer with more than
+                        10 years of experience building high-quality applications
+                        with Swift, SwiftUI and modern mobile architecture.
+                        I also develop AI solutions using Python, FastAPI,
+                        LangChain and OpenAI.
+                    </p>
 
-                    <a href="#projects" class="button button-primary">
-                        View My Projects
+                    <div class="hero-actions">
+
+                        <a href="#projects" class="button button-primary">
+                            View Projects
+                        </a>
+
+                        <a href="#contact" class="button button-secondary">
+                            Contact Me
+                        </a>
+
+                    </div>
+
+                    <div class="hero-highlights">
+
+                        <div class="highlight-item">
+                            <strong>10+</strong>
+                            <span>Years in iOS</span>
+                        </div>
+
+                        <div class="highlight-item">
+                            <strong>SwiftUI</strong>
+                            <span>Modern iOS development</span>
+                        </div>
+
+                        <div class="highlight-item">
+                            <strong>AI</strong>
+                            <span>Python and LLM applications</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <aside class="hero-card" aria-label="Professional profile summary">
+
+                    <div class="profile-monogram">
+                        BS
+                    </div>
+
+                    <p class="hero-card-label">Currently focused on</p>
+
+                    <h2>
+                        iOS, AI Engineering and intelligent automation
+                    </h2>
+
+                    <ul class="focus-list">
+                        <li>Swift and SwiftUI applications</li>
+                        <li>FastAPI backends</li>
+                        <li>LLM integrations and AI agents</li>
+                        <li>Production-ready mobile architecture</li>
+                    </ul>
+
+                    <a
+                        href="https://github.com/BilelSelmiAi2026"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="text-link"
+                    >
+                        Explore my GitHub →
                     </a>
 
-                    <a href="#contact" class="button button-secondary">
-                        Contact Me
-                    </a>
+                </aside>
+
+            </div>
+
+        </section>
+
+
+        <section id="about" class="section">
+
+            <div class="container two-column-section">
+
+                <div>
+                    <p class="section-label">About</p>
+                    <h2 class="section-title">
+                        Mobile engineering experience combined with AI.
+                    </h2>
+                </div>
+
+                <div class="about-copy">
+
+                    <p>
+                        I have more than 10 years of professional experience
+                        developing enterprise-grade iOS applications, SDKs and
+                        mobile product features using Swift, SwiftUI, UIKit and
+                        modern software architecture.
+                    </p>
+
+                    <p>
+                        My experience includes identity verification, OCR,
+                        NFC, biometrics, networking, concurrency, testing,
+                        CI/CD and reusable SDK development.
+                    </p>
+
+                    <p>
+                        I am expanding into AI engineering by building projects
+                        with Python, FastAPI, OpenAI, LangChain,
+                        Retrieval-Augmented Generation and AI agents.
+                    </p>
 
                 </div>
 
@@ -90,85 +167,81 @@
         </section>
 
 
-        <!-- About Section -->
-        <section id="about" class="section">
+        <section id="skills" class="section section-muted">
 
             <div class="container">
 
-                <h2 class="section-title">About Me</h2>
+                <div class="section-heading">
 
-                <p class="section-description">
-                    I am a Senior iOS Engineer with more than 10 years
-                    of experience building mobile applications and SDKs.
-                    My main technologies include Swift, SwiftUI, UIKit,
-                    REST APIs, mobile architecture and automated testing.
-                </p>
+                    <div>
+                        <p class="section-label">Skills</p>
 
-                <p class="section-description">
-                    I am also expanding my experience into AI engineering
-                    with Python, FastAPI, large language models, LangChain,
-                    automation and intelligent application development.
-                </p>
+                        <h2 class="section-title">
+                            Technologies I use to build products.
+                        </h2>
+                    </div>
 
-            </div>
+                    <p>
+                        A combination of mobile engineering, backend development,
+                        AI tooling and professional software practices.
+                    </p>
 
-        </section>
+                </div>
 
-
-        <!-- Skills Section -->
-        <section id="skills" class="section section-alt">
-
-            <div class="container">
-
-                <h2 class="section-title">Skills</h2>
 
                 <div class="skills-grid">
 
                     <article class="skill-card">
+                        <span class="skill-number">01</span>
                         <h3>iOS Development</h3>
                         <p>
-                            Swift, SwiftUI, UIKit, Combine,
-                            Swift Concurrency and Core Data.
+                            Swift, SwiftUI, UIKit, Combine, async/await,
+                            Core Data, AVFoundation and Apple frameworks.
                         </p>
                     </article>
 
                     <article class="skill-card">
+                        <span class="skill-number">02</span>
                         <h3>Architecture</h3>
                         <p>
-                            MVVM, Clean Architecture, SOLID,
-                            dependency injection and modular design.
+                            MVVM, Clean Architecture, SOLID, dependency
+                            injection, modular design and reusable SDKs.
                         </p>
                     </article>
 
                     <article class="skill-card">
-                        <h3>Backend</h3>
-                        <p>
-                            Python, FastAPI, REST APIs,
-                            SQLite and PostgreSQL.
-                        </p>
-                    </article>
-
-                    <article class="skill-card">
+                        <span class="skill-number">03</span>
                         <h3>AI Engineering</h3>
                         <p>
-                            OpenAI APIs, LangChain, RAG,
-                            AI agents, Whisper and automation.
+                            OpenAI APIs, LangChain, RAG, AI agents,
+                            Whisper, prompt engineering and automation.
                         </p>
                     </article>
 
                     <article class="skill-card">
+                        <span class="skill-number">04</span>
+                        <h3>Backend</h3>
+                        <p>
+                            Python, FastAPI, REST APIs, authentication,
+                            SQLite, PostgreSQL and API integration.
+                        </p>
+                    </article>
+
+                    <article class="skill-card">
+                        <span class="skill-number">05</span>
+                        <h3>Quality</h3>
+                        <p>
+                            XCTest, UI testing, unit testing, code reviews,
+                            performance analysis and maintainable code.
+                        </p>
+                    </article>
+
+                    <article class="skill-card">
+                        <span class="skill-number">06</span>
                         <h3>DevOps</h3>
                         <p>
-                            Git, GitHub, Docker, GitHub Actions,
-                            Fastlane and CI/CD.
-                        </p>
-                    </article>
-
-                    <article class="skill-card">
-                        <h3>Testing</h3>
-                        <p>
-                            XCTest, UI testing, unit testing,
-                            integration testing and test automation.
+                            Git, GitHub, Docker, Fastlane, GitHub Actions,
+                            Bitrise and modern CI/CD workflows.
                         </p>
                     </article>
 
@@ -179,12 +252,27 @@
         </section>
 
 
-        <!-- Projects Section -->
         <section id="projects" class="section">
 
             <div class="container">
 
-                <h2 class="section-title">Projects</h2>
+                <div class="section-heading">
+
+                    <div>
+                        <p class="section-label">Projects</p>
+
+                        <h2 class="section-title">
+                            Selected work and learning projects.
+                        </h2>
+                    </div>
+
+                    <p>
+                        Projects that combine mobile development,
+                        backend engineering and artificial intelligence.
+                    </p>
+
+                </div>
+
 
                 <div class="projects-grid">
 
@@ -192,100 +280,99 @@
                         href="https://github.com/BilelSelmiAi2026/instagram-story-automation"
                         target="_blank"
                         rel="noopener noreferrer"
-                        class="project-card"
+                        class="project-card project-card-featured"
                     >
 
-                        <div class="project-card-content">
-
-                            <span class="project-type">
+                        <div class="project-top-row">
+                            <span class="project-category">
                                 Python Automation
                             </span>
 
-                            <h3>Instagram Story Automation</h3>
-
-                            <p>
-                                An automated pipeline that reads articles
-                                from RSS feeds, summarizes their content,
-                                downloads images and generates Instagram
-                                story slides.
-                            </p>
-
-                            <div class="project-technologies">
-                                <span>Python</span>
-                                <span>Docker</span>
-                                <span>RSS</span>
-                                <span>TextRank</span>
-                            </div>
-
-                            <span class="project-link">
-                                View project on GitHub →
-                            </span>
-
+                            <span class="project-arrow">↗</span>
                         </div>
+
+                        <h3>Instagram Story Automation</h3>
+
+                        <p>
+                            An automated content pipeline that reads RSS feeds,
+                            extracts articles, summarizes content and generates
+                            ready-to-publish Instagram story slides.
+                        </p>
+
+                        <div class="tag-list">
+                            <span>Python</span>
+                            <span>Docker</span>
+                            <span>RSS</span>
+                            <span>TextRank</span>
+                            <span>ImageMagick</span>
+                        </div>
+
+                        <span class="project-link">
+                            View repository
+                        </span>
 
                     </a>
 
 
                     <article class="project-card">
 
-                        <div class="project-card-content">
-
-                            <span class="project-type">
+                        <div class="project-top-row">
+                            <span class="project-category">
                                 iOS + AI
                             </span>
 
-                            <h3>AI Medical Assistant</h3>
-
-                            <p>
-                                A medical documentation application that
-                                allows doctors to manage patients, record
-                                consultations, transcribe audio and generate
-                                structured medical notes.
-                            </p>
-
-                            <div class="project-technologies">
-                                <span>SwiftUI</span>
-                                <span>FastAPI</span>
-                                <span>Whisper</span>
-                                <span>OpenAI</span>
-                            </div>
-
-                            <span class="project-status">
-                                In development
-                            </span>
-
+                            <span class="project-status">In development</span>
                         </div>
+
+                        <h3>AI Medical Assistant</h3>
+
+                        <p>
+                            A medical documentation platform for patient
+                            management, consultation recording, transcription
+                            and AI-generated structured medical notes.
+                        </p>
+
+                        <div class="tag-list">
+                            <span>SwiftUI</span>
+                            <span>FastAPI</span>
+                            <span>Whisper</span>
+                            <span>OpenAI</span>
+                        </div>
+
+                        <span class="project-link project-link-muted">
+                            Private project
+                        </span>
 
                     </article>
 
 
                     <article class="project-card">
 
-                        <div class="project-card-content">
-
-                            <span class="project-type">
+                        <div class="project-top-row">
+                            <span class="project-category">
                                 Python
                             </span>
 
-                            <h3>Recommendation Algorithm Simulator</h3>
-
-                            <p>
-                                A simple A/B testing simulation that compares
-                                the click-through rates of two recommendation
-                                algorithms.
-                            </p>
-
-                            <div class="project-technologies">
-                                <span>Python</span>
-                                <span>Statistics</span>
-                                <span>A/B Testing</span>
-                            </div>
-
-                            <span class="project-status">
-                                Learning project
-                            </span>
-
+                            <span class="project-status">Learning project</span>
                         </div>
+
+                        <h3>Recommendation Algorithm Simulator</h3>
+
+                        <p>
+                            A simple A/B testing simulation that compares
+                            two recommendation models using click rates,
+                            averages and standard deviation.
+                        </p>
+
+                        <div class="tag-list">
+                            <span>Python</span>
+                            <span>Statistics</span>
+                            <span>A/B Testing</span>
+                        </div>
+
+                        <span class="project-link project-link-muted">
+                            Experiment
+                        </span>
 
                     </article>
 
@@ -296,21 +383,27 @@
         </section>
 
 
-        <!-- Contact Section -->
         <section id="contact" class="section contact-section">
 
-            <div class="container contact-container">
+            <div class="container">
 
-                <p class="contact-label">Let’s connect</p>
+                <div class="contact-heading">
 
-                <h2 class="section-title">
-                    Interested in working together?
-                </h2>
+                    <p class="section-label contact-label">
+                        Contact
+                    </p>
 
-                <p class="contact-introduction">
-                    I am open to discussing iOS engineering,
-                    AI engineering and software development opportunities.
-                </p>
+                    <h2>
+                        Interested in working together?
+                    </h2>
+
+                    <p>
+                        I am open to iOS engineering, AI engineering and
+                        software development opportunities.
+                    </p>
+
+                </div>
+
 
                 <div class="contact-grid">
 
@@ -318,15 +411,16 @@
                         href="mailto:bilel.aiselmi@gmail.com"
                         class="contact-card"
                     >
+
                         <span class="contact-icon">✉</span>
 
                         <div>
                             <span class="contact-type">Email</span>
-
-                            <strong>
-                                bilel.aiselmi@gmail.com
-                            </strong>
+                            <strong>bilel.aiselmi@gmail.com</strong>
                         </div>
+
+                        <span class="contact-arrow">→</span>
+
                     </a>
 
 
@@ -336,15 +430,16 @@
                         rel="noopener noreferrer"
                         class="contact-card"
                     >
+
                         <span class="contact-icon">&lt;/&gt;</span>
 
                         <div>
                             <span class="contact-type">GitHub</span>
-
-                            <strong>
-                                BilelSelmiAi2026
-                            </strong>
+                            <strong>BilelSelmiAi2026</strong>
                         </div>
+
+                        <span class="contact-arrow">→</span>
+
                     </a>
 
 
@@ -354,15 +449,16 @@
                         rel="noopener noreferrer"
                         class="contact-card"
                     >
+
                         <span class="contact-icon">in</span>
 
                         <div>
                             <span class="contact-type">LinkedIn</span>
-
-                            <strong>
-                                Bilel Selmi
-                            </strong>
+                            <strong>Bilel Selmi</strong>
                         </div>
+
+                        <span class="contact-arrow">→</span>
+
                     </a>
 
                 </div>
@@ -374,13 +470,12 @@
     </main>
 
 
-    <!-- Footer -->
-    <footer class="footer">
+    <footer class="site-footer">
 
         <div class="container footer-content">
 
             <p>
-                © 2026 Bilel Selmi. All rights reserved.
+                © 2026 Bilel Selmi. Built with HTML and CSS.
             </p>
 
             <a href="#home">
